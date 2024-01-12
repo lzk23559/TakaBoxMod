@@ -1376,7 +1376,7 @@ public class VodController extends BaseController {
                     isKeyUp = true;
                     return true;
                 }
-            } else if (keyCode == KeyEvent.KEYCODE_DPAD_DOWN) {
+            } else if (keyCode == KeyEvent.KEYCODE_DPAD_DOWN || keyCode== KeyEvent.KEYCODE_MENU) {
                 if (!isBottomVisible()) {
                     showBottom();
                     return true;
